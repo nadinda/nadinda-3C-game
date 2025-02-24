@@ -116,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isHitLowerStep && !isHitUpperStep)
         {
-            _rigidbody.position += Vector3.up * _upperStepOffset.y;
+            _rigidbody.AddForce(0, _stepForce, 0);
         }
     }
 
@@ -147,6 +147,7 @@ public class PlayerMovement : MonoBehaviour
             _playerStance = PlayerStance.Stand;
             _rigidbody.useGravity = true;
             transform.position -= transform.forward * 1f;
+            _speed = _walkSpeed;
         }
     }
 
