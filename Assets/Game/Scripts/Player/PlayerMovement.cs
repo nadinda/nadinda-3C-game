@@ -94,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
         if (_isGrounded)
         {
             Vector3 jumpDirection = Vector3.up;
-            _rigidbody.AddForce(jumpDirection * _jumpForce * Time.deltaTime);
+            _rigidbody.AddForce(jumpDirection * _jumpForce);
         }
     }
 
