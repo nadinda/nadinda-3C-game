@@ -11,10 +11,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Basic/Scenes/Gameplay.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Blockout/Scenes/MainMenu.unity
     guid: ce9a14c386df09a45b130c5871acf27b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Blockout/Scenes/BlockoutGame.unity
     guid: 50380ac5790d67f4893ab9398a49d2be
+  - enabled: 1
+    path: Assets/Game/Scenes/MainMenu.unity
+    guid: 212b8300e0d3101418afcd4f2673df65
+  - enabled: 1
+    path: Assets/Game/Scenes/ForestHillGame.unity
+    guid: 26a892fc2f176e541ac5a2c792d2bd0c
   m_configObjects: {}
